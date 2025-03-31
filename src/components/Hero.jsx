@@ -61,8 +61,8 @@ const Hero = () => {
           >
             <motion.a
               whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
-              href="/cv_bouzid-daho.pdf"
-              download="cv_bouzid-daho.pdf"
+              href="/cv_bouzid_daho.pdf"
+              download="cv_bouzid_daho.pdf"
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl"
             >
               Download CV

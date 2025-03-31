@@ -25,7 +25,7 @@ const projects = [
     description:
       "An e-commerce website built to enhance online shopping experiences. It features a responsive design, product catalog, and a smooth checkout process.",
     links: {
-      site: "https://chahriya.com",
+      site: "https://chahriya-eo2f.vercel.app/",
     },
   },
 
