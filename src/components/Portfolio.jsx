@@ -3,7 +3,7 @@ import React from 'react';
 import { AiOutlineGithub } from 'react-icons/ai';
 
 import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
+import project2 from '../assets/project-parfum.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
 import project6 from '../assets/project6.png';
@@ -25,7 +25,7 @@ const projects = [
     description:
       "An e-commerce website built to enhance online shopping experiences. It features a responsive design, product catalog, and a smooth checkout process.",
     links: {
-      site: "https://chahriya-eo2f.vercel.app/",
+      site: "https://tourmaline-semifreddo-ba7492.netlify.app/",
     },
   },
 
