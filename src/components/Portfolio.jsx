@@ -4,32 +4,65 @@ import { AiOutlineGithub } from 'react-icons/ai';
 
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project-parfum.png';
+import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
-import project6 from '../assets/project6.png';
+
 import Reveal from './Reveal';
 
 const projects = [
-  {
-    img: project1,
-    title: "Project #1: Frontend UI Development",
-    description:
-      "A modern, responsive platform built with React.js for BKBO Expat, designed to help expatriates navigate and manage their relocation process. It features intuitive UI, dynamic content, and a user-friendly interface for a seamless experience.",
-    links: {
-      site: "https://www.bkbo-expat.com",
-    },
+ {
+  img: project1,
+  title: "Project #1: Expat Relocation Platform",
+  description: `A full-stack web application developed for BKBO Expat, designed to streamline the relocation process for expatriates. Built with React.js for the frontend and Firebase as the backend, the platform provides:
+
+- Dynamic and responsive user interface for an intuitive experience.
+- Real-time database for managing user data and content.
+- Authentication & security features to ensure safe access.
+- Scalable architecture supporting future growth and additional services.`,
+  links: {
+    site: "https://www.bkbo-expat.com",
   },
+},
+
   {
     img: project2,
     title: "Project #2: E-commerce Platform",
     description:
-      "An e-commerce website built to enhance online shopping experiences. It features a responsive design, product catalog, and a smooth checkout process.",
+      "A fully responsive e-commerce website built to optimize the online shopping experience. It includes a structured product catalog, smooth checkout process, and user-friendly design to enhance conversion rates and customer satisfaction.",
     links: {
       site: "https://tourmaline-semifreddo-ba7492.netlify.app/",
     },
   },
-
+  {
+    img: project3,
+    title: "Project #3: Gaming E-commerce Platform",
+    description:
+      "An online e-commerce platform specifically designed for gamers. The platform features a sleek and dynamic interface, product categories for gaming gear, and a responsive design to deliver a tailored shopping experience for the gaming community.",
+    links: {
+      site: "https://gaming-hefk-6i17g3u3j.vercel.app",
+    },
+  },
+  {
+    img: project4,
+    title: "Project #4: Interactive Quiz Game",
+    description:
+      "A web-based quiz game platform offering interactive and engaging challenges. Built with a responsive design, it provides dynamic question rendering, instant feedback, and an enjoyable experience for both entertainment and educational purposes.",
+    links: {
+      site: "https://haj-nine.vercel.app/",
+    },
+  },
+  {
+    img: project5,
+    title: "Project #5: Charity Organization Website",
+    description:
+      "A professional website developed for a charitable organization to showcase its mission, activities, and community impact. It enables visitors to easily access information, explore ongoing projects, and contribute through an intuitive and responsive interface.",
+    links: {
+      site: "https://idyllic-melba-eaaaba.netlify.app/",
+    },
+  },
 ];
+
 
 const Portfolio = () => {
   return (

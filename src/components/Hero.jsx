@@ -5,7 +5,7 @@ import { DiHtml5, DiCss3, DiJavascript1, DiPython, DiAngularSimple } from 'react
 import { SiFlutter } from 'react-icons/si';
 import { TypeAnimation } from 'react-type-animation';
 
-import profilepic from '../assets/profpic.png';
+import profilepic from '../assets/monphoto.png';
 import ShinyEffect from './ShinyEffect';
 
 const Hero = () => {
@@ -61,8 +61,8 @@ const Hero = () => {
           >
             <motion.a
               whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
-              href="/cv_bouzid_daho.pdf"
-              download="cv_bouzid_daho.pdf"
+              href="/cv_2025.pdf"
+              download="cv_2025.pdf"
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl"
             >
               Download CV
